@@ -1,0 +1,29 @@
+THIS IS FIXED WIDTH!!!!!!! NOT MOBILE FRIENDLY
+
+body{
+  width: 960px;
+  margin: 0 auto:
+}
+/*^the body element is used to fix the width of the page which is 960 pixels and its centered by setting the left and right margins to auto*/
+^SOMETIMES AN EXTRA HTML ELEMENT IS USED TO CONTAINT THE PAGE RRATHER THAN FIXING YHR WIDTH OF THE BODY. THAT ALLOWS THE BACKGROUN  OD THE BROWESER WINDOW TO HAVE A FDIFFERENT COLLOR THANN THE BACKGROUND OF THE CONTENT
+#content {
+  overflow: auto;
+  height: 100%;
+}
+/*^all the content div boxed on the page have a 10pixel margin gap betweeen them*/
+/*^you won't have to scroll side to side on a small screen the overflow is hidden so it always fits inthe view */
+#nav, #feature, #footer, {
+  background-color: #c8c8c8;
+  padding: 10px;
+  margin: 10px;
+}
+/*^the navigation, feature and footer panels stretch the width of the containing element(which is body) so we don't have to set a width for them*/
+.column1, .column2, .column3{
+  background color: #c9c9c9;
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+/*^^the three columns are each 300pixels wide with a gap(or 'margin') of 10pixels between each col&  we use float to sit columns next to eachother.*/
+
+__________________________________________
